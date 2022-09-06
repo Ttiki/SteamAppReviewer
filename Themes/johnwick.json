@@ -1,0 +1,17 @@
+{
+	"colorScheme": {
+		"background": "#00000",
+		"border": "#00AF00",
+		"foreground": "#00AF00",
+		"highlight": "#424242",
+		"menuBorder": "#999999",
+		"popup": "#1A1A1A",
+		"raised": "#1A1A1A",
+		"selectedText": "#00FF00",
+		"selection": "#00AF00",
+		"sliderArrow": "#00AF00",
+		"sliderTrack": "#00AF00",
+		"sliderTrackHovered": "#00AF00",
+		"sunken": "#262626"
+	}
+}
