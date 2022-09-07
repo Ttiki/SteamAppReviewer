@@ -78,8 +78,9 @@ int main(int argc, const char* argv[])
     //Creating the left side interface with review and general information
 	
 	//TODO: change the text of the button by the thumbs up / down icon from Steam (TODO: download the thumbs up / down icon from Steam!)
-	auto rightPanel_reviewTU = CreateButton(L"Thumbs up", margin, margin, mainPanel_rightPanelWrap->GetSize().x/2-margin*4, 24, mainPanel_rightPanelWrap, BUTTON_TOGGLE);
-    auto rightPanel_reviewTD = CreateButton(L"Thumbs down", mainPanel_rightPanelWrap->GetSize().x / 2 + margin * 2, margin, mainPanel_rightPanelWrap->GetSize().x / 2 - margin * 4, 24, mainPanel_rightPanelWrap, BUTTON_TOGGLE);
+	auto rightPanel_reviewTU = CreateButton(L"Thumbs up", margin, margin, mainPanel_rightPanelWrap->GetSize().x/2-margin*4, mainPanel_rightPanelWrap->GetSize().x / 2 - margin * 4, mainPanel_rightPanelWrap, BUTTON_TOGGLE);
+	rightPanel_reviewTU->SetPixmap()
+    auto rightPanel_reviewTD = CreateButton(L"Thumbs down", mainPanel_rightPanelWrap->GetSize().x / 2 + margin * 2, margin, mainPanel_rightPanelWrap->GetSize().x / 2 - margin * 4, mainPanel_rightPanelWrap->GetSize().x / 2 - margin * 4, mainPanel_rightPanelWrap, BUTTON_TOGGLE);
 
 
 	
